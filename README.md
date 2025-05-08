@@ -1,1 +1,15 @@
 # Ai.dea
+- Memoria_General.md
+- Diario_Trabajo.md
+- Aura_Project/
+  - Readme.md
+  - Documento_Explicativo.md
+  - API/
+  - Modelos/
+  - Database_IO/
+- Rosal.ia_Project/
+  - Readme.md
+  - Documento_Explicativo.md
+  - API/
+  - Modelos/
+  - Database_IO/
