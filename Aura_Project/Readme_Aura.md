@@ -1,70 +1,88 @@
-# AURA – Scripts explicativos por caso de uso
+# AURA: Análisis de Uso de Recursos de Acontecimientos
 
-AURA es una herramienta modular que calcula el impacto ambiental de eventos, centrada inicialmente en la movilidad de asistentes y transporte de equipos. Integra modelos de machine learning y permite estimar huella de carbono, analizar compensaciones por reforestación y adaptar cálculos a distintos contextos. Cada uno de los scripts aborda una parte específica del sistema.
+AURA nace como una solución práctica para facilitar la toma de decisiones estratégicas por parte de los organizadores de eventos, con el objetivo de reducir y compensar su impacto ambiental. Desde sus primeras fases, el proyecto adoptó un enfoque centrado en el usuario, priorizando el desarrollo de herramientas escalables, accesibles y alineadas con las necesidades reales del sector.
 
----
-
-# Guía del Código `caso1.py`
-
-**Propósito:**  
-Calcula distancias entre ciudades españolas (incluyendo islas) y gestiona datos de transporte (aeropuertos y estaciones). También permite estimar compensaciones mediante árboles.
-
-**Características clave:**
-
-- Manejo de grafos viales con `osmnx`
-- Geocodificación optimizada con caché
-- Base de datos extensible por región
-- Clase `CarbonCalculator` para estimar CO₂ y compensación
+La herramienta integra modelos de aprendizaje automático para estimar la huella de carbono generada tanto por los asistentes como por el transporte de equipos multimedia. AURA no solo cuantifica emisiones: proporciona métricas accionables que promueven decisiones responsables, y actúa como un aliado estratégico para fomentar una cultura de sostenibilidad en la organización de eventos.
 
 ---
 
-# Guía del Código `caso2.py`
+## 🌍 Visión General Técnica
 
-**Propósito:**  
-Expande el análisis de `caso1.py` al contexto europeo. Calcula distancias entre ciudades del continente e islas, y soporta modos de transporte como avión, tren y coche.
-
-**Características clave:**
-
-- Geocodificación por nombre y país
-- Gestión de casos especiales (Irlanda, Sicilia, Cerdeña)
-- Soporte para ciudades sin tren
-- Cálculo de distancias usando fórmula de Haversine y redes viales
-- Reutiliza `CarbonCalculator` para estimaciones de compensación
+- 🔁 Modelos de ML para emisiones de asistentes (`MLPRegressor`)
+- 🔊 Modelos de ML para emisiones de equipos multimedia (`RandomForestRegressor`)
+- 🧱 Arquitectura modular y escalable
+- 🌱 Integración de mecanismos de compensación (reforestación)
+- 📊 Informes claros para usuarios técnicos y no técnicos
 
 ---
 
-# Guía del Código `caso3.py`
+## 📁 Estructura del Proyecto
 
-**Propósito:**  
-Genera un dataset sintético de asistentes internacionales a un evento. Simula su procedencia, vuelos, clases y calcula la huella de carbono para entrenamiento de modelos.
+### `caso1.py` — Eventos Nacionales (España)
+Analiza eventos dentro de España (península e islas).
 
-**Características clave:**
+- 🗺️ Cálculo de distancias entre ciudades usando grafos viales (`osmnx`)
+- 🛫 Considera aeropuertos y estaciones ferroviarias
+- 🌳 Estimación de CO₂ con clase `CarbonCalculator`
+- 🧾 Generación de informes de impacto y compensación
 
-- Geocodificación eficiente con catálogo de 40.000 ciudades
-- Simulación realista de asistencia (nacional/internacional)
-- Cálculo de CO₂ por tipo de vuelo y clase
-- Introducción de valores faltantes para simular ruido de datos reales
-- Soporte para cálculo de reforestación con `CarbonCalculator`
+### `caso2.py` — Eventos Internacionales (Europa)
+Expande el análisis a Europa, considerando múltiples modos de transporte.
+
+- 🌍 Geocodificación de ciudades y países
+- 🚆 Soporte para ciudades sin conexión ferroviaria
+- 📐 Cálculo de distancias vía Haversine y redes viales
+- 🔁 Reutiliza y extiende la lógica de `caso1.py`
+
+### `caso3.py` — Eventos Globales
+Genera datasets sintéticos para modelado predictivo.
+
+- ✈️ Simulación realista de asistentes internacionales
+- 🌎 Base con más de 40,000 ciudades
+- ⚠️ ~15% de valores faltantes para simular casos reales
+- 🧪 Útil para entrenamiento de modelos ML
 
 ---
 
-## 🧮 Clase Común: `CarbonCalculator`
+## 🧠 Componentes de Aprendizaje Automático
 
-Presente en los tres casos, esta clase agrupa métodos clave para el análisis y la compensación de carbono.
+- `MLPRegressor`: Estima emisiones individuales en función de procedencia, distancia y clase de viaje.
+- `RandomForestRegressor`: Predice huella de carbono de equipos audiovisuales considerando consumo energético, número de dispositivos y duración.
 
-**Funciones principales:**
-
-- Estimación de CO₂ en biomasa  
-- Tasas de absorción por tipo, edad y tamaño del árbol  
-- Cálculo de tiempos de compensación para mezclas forestales  
+Ambos modelos están integrados en pipelines con datos numéricos y categóricos para:
+- Capturar relaciones no lineales
+- Soportar datos heterogéneos
+- Ofrecer un buen balance entre precisión y eficiencia
 
 ---
 
-## ✅ Requisitos
+## 🌳 Clase Destacada: `CarbonCalculator`
 
-- Python 3.8 o superior  
-- Instalación de dependencias:
+Funcionalidad central para compensación:
+- Cálculo de absorción de CO₂ por especies arbóreas
+- Proyección de absorción a lo largo del tiempo
+- Comparación de estrategias de reforestación
+- Estimaciones de plazos de compensación
+
+---
+
+## 🧰 Sistemas de Soporte
+
+- ⚙️ Geocodificación optimizada (con caché LRU)
+- 🧾 Logging detallado con timestamps
+- 🔄 Múltiples reintentos para APIs externas
+- 🚀 Caché local para grafos de transporte
+
+---
+
+## 🧪 Requisitos Técnicos
 
 ```bash
-pip install -r requirements.txt
+Python >= 3.8
 
+# Dependencias principales
+geopy>=2.3.0
+networkx>=3.0
+osmnx>=1.6
+pandas>=2.0
+scikit-learn>=1.3
