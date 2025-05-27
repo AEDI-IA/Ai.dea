@@ -86,3 +86,5 @@ python caso3_distancias.py
 python caso3_dataset_asistencia.py  
 python caso3_modelo_asistencia.py
 ```
+
+```
