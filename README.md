@@ -2,7 +2,7 @@
 - Memoria_General.md
 - Diario_Trabajo.md
 - Aura_Project/
-  - Readme.md
+  - Readme_Aura.md
   - Documento_Explicativo.md
   - API/
   - Modelos/
