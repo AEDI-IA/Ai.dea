@@ -7,7 +7,7 @@
   - API/
   - Modelos/
   - Database_IO/
-- Rosal.ia_Project/
+- ROSAL.IA_project/
   - Readme.md
   - Documento_Explicativo.md
   - API/
