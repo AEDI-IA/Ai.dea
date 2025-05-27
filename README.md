@@ -1,4 +1,4 @@
-# Ai.dea
+# Ai.Idea
 - Memoria_General.md
 - Diario_Trabajo.md
 - Aura_Project/
