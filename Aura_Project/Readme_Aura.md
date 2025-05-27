@@ -3,6 +3,9 @@
 AURA nace como una solución práctica para facilitar la toma de decisiones estratégicas por parte de los organizadores de eventos, con el objetivo de reducir y compensar su impacto ambiental. Desde sus primeras fases, el proyecto adoptó un enfoque centrado en el usuario, priorizando el desarrollo de herramientas escalables, accesibles y alineadas con las necesidades reales del sector.
 
 La herramienta integra modelos de aprendizaje automático para estimar la huella de carbono generada tanto por los asistentes como por el transporte de equipos multimedia. AURA no solo cuantifica emisiones: proporciona métricas accionables que promueven decisiones responsables, y actúa como un aliado estratégico para fomentar una cultura de sostenibilidad en la organización de eventos.
+![Diagrama Mermaid Aura 1](https://github.com/user-attachments/assets/b274db7a-17e0-4d29-9ddb-bbe79657a8fa)
+
+
 
 ---
 
