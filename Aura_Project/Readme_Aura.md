@@ -29,7 +29,7 @@ Analiza eventos dentro de España (península e islas).
 - 🗺️ Cálculo de distancias entre ciudades usando grafos viales (`osmnx`)
 - 🛫 Considera aeropuertos y estaciones ferroviarias
 - 🌳 Estimación de CO₂ con clase `CarbonCalculator`
-- 🧾 Generación de informes de impacto y compensación
+- 🧾 Analisis de impacto y propuestas de compensación
 
 ### `caso2.py` — Eventos Internacionales (Europa)
 Expande el análisis a Europa, considerando múltiples modos de transporte.
@@ -64,7 +64,7 @@ Ambos modelos están integrados en pipelines con datos numéricos y categóricos
 ## 🌳 Clase Destacada: `CarbonCalculator`
 
 Funcionalidad central para compensación:
-- Cálculo de absorción de CO₂ por especies arbóreas
+- Cálculo de absorción de CO₂ con distintas especies arbóreas
 - Proyección de absorción a lo largo del tiempo
 - Comparación de estrategias de reforestación
 - Estimaciones de plazos de compensación
