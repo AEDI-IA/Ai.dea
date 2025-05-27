@@ -17,7 +17,7 @@ La herramienta integra modelos de aprendizaje automático para estimar la huella
 - 🔊 Modelos de ML para emisiones de equipos multimedia (`RandomForestRegressor`)
 - 🧱 Arquitectura modular y escalable
 - 🌱 Integración de mecanismos de compensación (reforestación)
-- 📊 Informes claros para usuarios técnicos y no técnicos
+- 📊 Resultado claros para usuarios técnicos y no técnicos
 
 ---
 
