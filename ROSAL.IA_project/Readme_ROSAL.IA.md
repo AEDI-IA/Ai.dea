@@ -1,4 +1,6 @@
-# 🌿 ROSAL.IA 
+ ![logo rosalia](https://github.com/user-attachments/assets/46703e17-fca7-43a5-913a-7780b1a0cf09)
+
+# 🌿 ROSAL.IA
 
 **Repository Of Scientific Articles on Listed Species (ROSAL.IA)**
 
