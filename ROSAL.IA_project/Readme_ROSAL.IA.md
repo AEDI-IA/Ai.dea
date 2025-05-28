@@ -9,3 +9,45 @@ ROSAL.IA (Repository Of Scientific Articles on Listed Species) es una herramient
 ---
 
 ![Diagrama Mermaid Rosal ia](https://github.com/user-attachments/assets/1861ea35-70c9-4ebb-8365-b3dab973c33c)
+
+---
+
+## 📘 ¿Qué es ROSAL.IA?
+
+**ROSAL.IA** *(Repository Of Scientific Articles on Listed Species)* es una iniciativa orientada a:
+
+- 📥 Integrar APIs públicas para acceder a listados oficiales de especies catalogadas (como IEPNB).
+- 📚 Recuperar bibliografía científica relacionada con dichas especies (CrossRef, Semantic Scholar).
+- 🧠 Aplicar IA y NLP para generar informes sintéticos, rigurosos y actualizables.
+- 🏛️ Servir como infraestructura científica para entidades públicas y conservacionistas.
+
+---
+
+## 🧪 ¿Qué hace `ROSALIA-Fetcher_VM1.py`?
+
+Este módulo realiza:
+
+1. **Filtrado dinámico de especies** desde el Excel oficial del MITECO.
+2. **Búsqueda automatizada de artículos científicos** relacionados (CrossRef, Semantic Scholar).
+3. **Extracción y validación de abstracts**.
+4. **Limpieza avanzada y filtrado lingüístico** (idioma, contenido, duplicados).
+5. **Generación de corpus en `.xlsx`** listo para uso en modelos o informes.
+
+---
+
+## ⚙️ Tecnologías clave
+
+- **spaCy `en_core_web_lg`** — Extracción de entidades, deduplicación y filtrado.
+- **CrossRef / Semantic Scholar APIs** — Recuperación de artículos científicos.
+- **IEPNB API** — Listado oficial de especies normativas.
+- **CodeCarbon** — Medición de impacto ambiental del proceso.
+- **Pandas + BeautifulSoup + tqdm** — Limpieza, scraping y monitoreo.
+
+---
+
+## ▶️ Cómo ejecutar
+
+### 1. Instalación
+
+```bash
+pip install -r requirements.txt
