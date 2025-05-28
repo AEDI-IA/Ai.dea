@@ -1,3 +1,4 @@
+```
 AEDI-IA/
 │
 ├── logger_carbon.py                         # Registro de emisiones de carbono
@@ -32,3 +33,6 @@ AEDI-IA/
 │       ├── ROSAL_IA_science_desk_reporter.py
 │       ├── Readme_ROSAL.IA.md
 │       └── Requirements_ROSAL.IA.txt
+```
+
+---
