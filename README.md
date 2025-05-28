@@ -3,13 +3,11 @@
 - Diario_Trabajo.md
 - Aura_Project/
   - Readme_Aura.md
-  - Documento_Explicativo.md
-  - API/
+    - API/
   - Modelos/
   - Database_IO/
 - ROSAL.IA_project/
   - Readme.md
-  - Documento_Explicativo.md
-  - API/
+    - API/
   - Modelos/
   - Database_IO/
