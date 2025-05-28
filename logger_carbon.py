@@ -3,7 +3,7 @@ import re
 from datetime import datetime 
 import logging
 timestamp = datetime.now().strftime("%Y%m%d_%H%M")
-log_filename = f"ROSALIA_FETCHER_LOG_{timestamp}.txt"
+log_filename = f"logger_carbon{timestamp}.txt"
 
 logging.basicConfig(
     
