@@ -3,14 +3,14 @@
 AEDI-IA/
 │
 ├── logger_carbon.py                         # Registro de emisiones de carbono
-├── AzureUsage_AI_IDEA.csv                  # Dataset de uso energético de Azure
-├── Diario_Trabajo.pdf                      # Bitácora del proyecto
-├── Memoria_General.pdf                     # Informe completo del proyecto
-├── Respuestas_Formulario_1.pdf            # Encuestas y formularios
-├── README.md                               # Este archivo
+├── AzureUsage_AI_IDEA.csv                   # Dataset de uso energético de Azure
+├── Diario_Trabajo.pdf                       # Bitácora del proyecto
+├── Memoria_General.pdf                      # Informe completo del proyecto
+├── Respuestas_Formulario_1.pdf              # Encuestas y formularios
+├── README.md                                # Este archivo
 │
 ├── Ai.dea/
-│   ├── Aura_Project/                       # Subproyecto Aura
+│   ├── Aura_Project/                        # Subproyecto Aura
 │   │   ├── Caso 1/
 │   │   │   ├── caso1.py
 │   │   │   ├── european_routes_ranking.csv
@@ -25,7 +25,7 @@ AEDI-IA/
 │   │   │   └── largest_cities.csv
 │   │   └── Readme_Aura.md
 │   │
-│   └── ROSAL.IA_project/                   # Subproyecto ROSAL.IA
+│   └── ROSAL.IA_project/                    # Subproyecto ROSAL.IA
 │       ├── Datasets/
 │       │   └── ROSAL_IA_ejemplo_Streamlit.xlsx
 │       ├── Resultados/
