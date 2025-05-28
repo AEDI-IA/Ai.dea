@@ -1,3 +1,4 @@
+![logo aura](https://github.com/user-attachments/assets/6589ded9-2467-4788-8f8a-2c86b5f8bd9e)
 # AURA: Análisis de Uso de Recursos de Acontecimientos
 
 AURA nace como una solución práctica para facilitar la toma de decisiones estratégicas por parte de los organizadores de eventos, con el objetivo de reducir y compensar su impacto ambiental. Desde sus primeras fases, el proyecto adoptó un enfoque centrado en el usuario, priorizando el desarrollo de herramientas escalables, accesibles y alineadas con las necesidades reales del sector.
