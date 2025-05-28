@@ -1,4 +1,4 @@
-# 🌿 ROSAL.IA Fetcher VM1
+# 🌿 ROSAL.IA 
 
 **Repository Of Scientific Articles on Listed Species (ROSAL.IA)**
 
