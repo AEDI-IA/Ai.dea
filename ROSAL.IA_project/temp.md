@@ -2,7 +2,9 @@
 
 **Repository Of Scientific Articles on Listed Species (ROSAL.IA)**
 
-`ROSALIA-Fetcher_VM1.py` es una herramienta crítica dentro de ROSAL.IA que automatiza la construcción del corpus de conocimiento científico a partir de especies protegidas recogidas en listados oficiales. Este módulo coordina la recolección, limpieza y validación de literatura científica para alimentar los sistemas NLP y de generación automática de informes del proyecto.
+ROSAL.IA (Repository Of Scientific Articles on Listed Species) es una herramienta que automatiza la construcción del corpus de conocimiento científico. Nace como una iniciativa orientada a facilitar el acceso y aprovechamiento del conocimiento científico relacionado con especies catalogadas en listas oficiales de conservación. Su objetivo principal es coordinar la integración de fuentes de datos públicas —como las APIs del IEPNB— con herramientas avanzadas de inteligencia artificial (IA) y deep learning (DL), para construir un corpus actualizado y fiable de literatura científica.
+
+ Este módulo coordina la recolección, limpieza y validación de literatura científica para alimentar los sistemas NLP y de generación automática de informes del proyecto.
 
 ---
 
