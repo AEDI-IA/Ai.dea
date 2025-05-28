@@ -1,3 +1,4 @@
+🔎 Esta es la estructura general del repositorio. La documentación detallada se encuentra disponible en los distintos documentos PDF y archivos README específicos incluidos en cada subdirectorio.
 ```
 AEDI-IA/
 │
