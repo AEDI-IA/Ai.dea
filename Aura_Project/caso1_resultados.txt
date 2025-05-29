@@ -1,0 +1,29 @@
+2025-05-29 19:01:47,678 - ✔ Distancias realistas guardadas en C:\Coding_bs\Biodiversity Hackathon\Distance database generator\dataset_distancias_españa.xlsx
+2025-05-29 19:01:51,257 - MSE en test: 304.14
+2025-05-29 19:01:51,259 - R² en test: 0.91
+2025-05-29 19:01:51,259 - Emisiones estimadas durante el fit: 0.0000 kg CO₂
+2025-05-29 19:01:51,261 - 
+=== Predicción aleatoria ===
+2025-05-29 19:01:51,261 - 350.7 km desde Sevilla, Spain por tren + avion → -37.86 kg CO₂
+2025-05-29 19:01:51,266 - 
+Calculando opciones de compensación...
+
+2025-05-29 19:01:51,266 - 
+=== OPCIÓN SELECCIONADA ===
+2025-05-29 19:01:51,266 - 100% Quercus ilex
+2025-05-29 19:01:51,267 - Descripción: Opción tradicional con encinas solamente
+2025-05-29 19:01:51,267 - 
+Para compensar 90.23 kg de CO2:
+2025-05-29 19:01:51,267 - • Total árboles necesarios: 1
+2025-05-29 19:01:51,267 - 
+Desglose por especie:
+2025-05-29 19:01:51,268 -   - Quercus ilex: 1 unidades
+2025-05-29 19:01:51,268 - 
+• Tiempo estimado de compensación: 10 años
+2025-05-29 19:01:51,268 - • Absorción anual promedio: 0 kg CO2/año
+2025-05-29 19:01:51,268 - 
+Costos estimados:
+2025-05-29 19:01:51,268 -   - Costo inicial: 26.88€
+2025-05-29 19:01:51,270 -   - Mantenimiento anual: 3.84€
+2025-05-29 19:01:51,270 -   - Costo total a 5 años: 46.07€
+2025-05-29 19:01:51,270 -   - Costo total a 10 años: 65.27€

@@ -1,0 +1,36 @@
+2025-05-29 19:22:02,647  ✔ Archivo 'dataset_distancias_europa.xlsx' generado con 552 filas.
+2025-05-29 19:22:02,715  • Sintetizando observaciones…
+2025-05-29 19:22:02,748  ✔ Dataset con 225 registros guardado (caso2*.csv).
+2025-05-29 19:22:06,302  MAE modelo 1: 131.16 kg CO₂
+2025-05-29 19:22:06,413  MAE modelo 2: 131.41 kg CO₂
+2025-05-29 19:22:06,547  MAE modelo 3: 129.94 kg CO₂
+2025-05-29 19:22:06,707  MAE modelo 4: 130.73 kg CO₂
+2025-05-29 19:22:06,907  MAE modelo 5: 129.18 kg CO₂
+2025-05-29 19:22:06,924  ⚡ Emisiones durante todo el entrenamiento: 0.0000 kg CO₂
+2025-05-29 19:22:06,937  
+=== Predicción de ejemplo ===
+2025-05-29 19:22:06,937  Viaje: Roma → Madrid (avión, ida+vuelta)
+2025-05-29 19:22:06,937  Distancia total: 2700 km
+2025-05-29 19:22:06,937  Huella prevista: 332.55 kg CO₂
+2025-05-29 19:22:06,939  
+Calculando opciones de compensación...
+
+2025-05-29 19:22:06,939  
+=== OPCIÓN SELECCIONADA ===
+2025-05-29 19:22:06,939  100% Quercus ilex
+2025-05-29 19:22:06,940  Descripción: Opción tradicional con encinas solamente
+2025-05-29 19:22:06,940  
+Para compensar 7500 kg de CO2:
+2025-05-29 19:22:06,940  • Total árboles necesarios: 64
+2025-05-29 19:22:06,940  
+Desglose por especie:
+2025-05-29 19:22:06,941    - Quercus ilex: 64 unidades
+2025-05-29 19:22:06,941  
+• Tiempo estimado de compensación: 10 años
+2025-05-29 19:22:06,942  • Absorción anual promedio: 0 kg CO2/año
+2025-05-29 19:22:06,942  
+Costos estimados:
+2025-05-29 19:22:06,942    - Costo inicial: 2234.04€
+2025-05-29 19:22:06,942    - Mantenimiento anual: 319.15€
+2025-05-29 19:22:06,942    - Costo total a 5 años: 3829.79€
+2025-05-29 19:22:06,943    - Costo total a 10 años: 5425.53€
