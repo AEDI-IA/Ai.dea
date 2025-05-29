@@ -1,13 +1,9 @@
 🔎 Esta es la estructura general del repositorio. La documentación detallada se encuentra disponible en los distintos documentos PDF y archivos README específicos incluidos en cada subdirectorio.
 ```
-```# Subproyecto Aura # Subcarpeta Azure # Subproyecto ROSAL.IA  # Bitácora del proyecto
-├── Memoria_General.pdf                     # Informe completo del proyecto
-├── README.md                               # Este archivo
-├── Respuestas_Formulario_1.pdf             # Encuestas y formularios
-├── logger_carbon.py                        # Registro de emisiones de carbono
+```  
 AEDI-IA/
 │
-├── Aura_Project/ # Subproyecto Aura
+├── Aura_Project/                             # Subproyecto Aura
 │ ├── Caso 1/
 │ │ ├── caso1.py
 │ │ ├── european_routes_ranking.csv
@@ -24,14 +20,14 @@ AEDI-IA/
 │ │ └── largest_cities.csv
 │ └── Readme_Aura.md
 │
-├── Azure/ # Subcarpeta Azure
+├── Azure/                                    # Subcarpeta Azure
 │ ├── AzureUsage_AI_IDEA.csv
 │ ├── Datos.jpg
 │ ├── Grupo_de_Recursos_VM_Distintas_IPs.jpg
 │ ├── Notebooks.jpg
 │ └── Proceso.jpg
 │
-├── ROSAL.IA_project/ # Subproyecto ROSAL.IA
+├── ROSAL.IA_project/                         # Subproyecto ROSAL.IA
 │ ├── Datasets/
 │ │ └── ROSAL_IA_ejemplo_Streamlit.xlsx
 │ ├── Resultados/
@@ -41,8 +37,8 @@ AEDI-IA/
 │ ├── Readme_ROSAL.IA.md
 │ └── Requirements_ROSAL.IA.txt
 │
-├── Diario_Trabajo.pdf # Bitácora del proyecto
-├── Memoria_General.pdf # Informe completo del proyecto
+├── Diario_Trabajo.pdf                        # Bitácora del proyecto
+├── Memoria_General.pdf                       # Informe completo del proyecto
 ├── README.md # Este archivo
-├── Respuestas_Formulario_1.pdf # Encuestas y formularios
-├── logger_carbon.py # Registro de emisiones de carbono
+├── Respuestas_Formulario_1.pdf               # Encuestas y formularios
+├── logger_carbon.py                          # Registro de emisiones de carbono
